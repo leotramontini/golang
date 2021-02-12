@@ -12,7 +12,7 @@ func main() {
 	log.SetFlags(0)
 
 	// Get a greeting message and print it.
-	message, erro := greetings.Hello("")
+	message, erro := greetings.Hello("Dylan")
 
 	if erro != nil {
 		log.Println(erro)
